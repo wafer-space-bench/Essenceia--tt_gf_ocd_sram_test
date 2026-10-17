@@ -1,0 +1,28 @@
+source:
+  url: https://github.com/Essenceia/tt_gf_ocd_sram_test
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: null
+  upstream_default_branch: main
+tapeouts:
+- org: tinytapeout
+  run: ttgf0p3
+  slot: tt_um_essen
+  project: 256x8 SRAM
+  size: 1x2
+  kind: digital (Verilog)
+  commit: ff317fa074bb0527568a9c5d2a1d65d390c08aa0
+  commit_source: commit from the shuttle repo's projects/<name>/commit_id.json
+  tag: tinytapeout/ttgf0p3/tt_um_essen
+  branch: tapeout/tinytapeout/ttgf0p3/tt_um_essen
+  page: https://app.tinytapeout.com/shuttles/ttgf0p3
+generated: '2026-10-17T23:36:43Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/tinytapeout/ttgf0p3/tt_um_essen
+- upstream/256x8
+- upstream/64x8
+- upstream/main
